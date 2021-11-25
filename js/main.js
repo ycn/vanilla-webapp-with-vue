@@ -3,6 +3,10 @@
 const appData = {
 };
 
+// global appMethods
+const appMethods = {
+};
+
 // page render
 let vue;
 let router;
