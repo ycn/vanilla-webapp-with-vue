@@ -1,0 +1,140 @@
+.container,
+#app {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  position: relative;
+}
+
+.logo a {
+  width: 79px;
+  height: 69px;
+  display: block;
+}
+
+.logo a svg {
+  color: #54B6CD;
+}
+
+.header {
+  width: 100%;
+  min-height: 112px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #254E70;
+  color: white;
+  font-size: 1.7em;
+  padding: 0 64px;
+  z-index: 10;
+}
+
+.navList,
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 24px;
+  position: relative;
+}
+
+.navList a {
+  display: block;
+  padding: 24px 64px;
+}
+
+.navList a, .navList a:hover, .navList a:focus {
+  color: white;
+  text-decoration: none;
+}
+
+.navList a.router-link-active,
+.navList a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  flex: 1 1 auto;
+  width: 100%;
+}
+
+.footer {
+  width: 100%;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #254E70;
+  color: white;
+  font-size: 1.7em;
+}
+
+.covers {
+  display: flex;
+  flex-direction: column;
+}
+
+.cover {
+  flex-wrap: nowrap;
+  display: flex;
+  align-items: center;
+}
+
+.cover.reverse {
+  flex-direction: row-reverse;
+}
+
+.cover.p3 {
+  background-image: url("/img/p3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-item {
+  width: 100%;
+  min-height: 200px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+  padding: 0 4.57em;
+}
+
+.banner-link,
+.banner-desc {
+  margin-top: 1.71em;
+}
+
+.banner-link {
+  height: 28px;
+}
+
+.banner-title {
+  font-size: 2.57em;
+}
+
+.banner .banner-title {
+  font-size: 3.57em;
+  text-align: center;
+}
+
+.banner-desc {
+  font-size: 1.7em;
+}
+
+.banner-item.nobg {
+  color: #254E70;
+  border-color: #254E70;
+}
+
+.cover.p3 .banner-item.nobg .button,
+.cover.p3 .banner-item.nobg {
+  color: white;
+  border-color: white;
+}
